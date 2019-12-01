@@ -9,5 +9,16 @@ First, let's clarify some terms.
 
 - **Package Manager**:(Example: npm) A tool that solves dependency versions and tells each package to prepare itself.
 - **Build System**: (Example: Webpack) A tool that generates artifacts for one package at a time, but that might be able to look at your dependencies' artifacts while doing so.
+- **Compiler**: Lower level tool that powers the language itself, and hopefully you never have to actually use this. Usually your build system will invoke the compiler. You just enjoy the result.
+
+Additional tools:
 - **Transpiler**: (Example: Babel) A tool that turns one file into another processed file.
 
+
+What kind of workflows does Reason currently support?
+
+- **Compiling Reason To Native:**
+- **Compiling Reason To JavaScript Via BuckleScript:**
+
+
+Depending on which of those outcomes you want, there is different tooling required. It would be great if that were not the case, but let's describe the current state of the world as is, then later come back to ways this can be improved for those interested in helping out.
