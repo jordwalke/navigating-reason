@@ -32,6 +32,7 @@ required, and what do you need to learn?
 
 Additional tools:
 - **Transpiler**: (Example: Babel) A tool that turns one file into another processed file.
+  - A type of compiler, also known as a source-to-source compiler
 
 
 ### What kind of workflows does Reason currently support?
